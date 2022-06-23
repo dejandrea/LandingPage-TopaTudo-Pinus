@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald:wght@200&display=swap');
+
+*{
+  border: none;
+  text-decoration: none;
+  margin: 0;
+}
+body{
+  height: 100%;
+  background-image: linear-gradient(rgb(88, 56, 3), rgb(236, 188, 84),rgb(236, 188, 84),rgb(88, 56, 3));
+}
+
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: solid 2px;
+}
+
+#header-title{
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+#header-logo{
+  display: block;
+  position:absolute;
+  left: 50px;
+}
+
+#header-title-h1{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 40pt;
+}
+
+#header-menu{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-menu-item{
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 18pt;
+
+}
+
+#main{
+  margin: 50px;
+  margin-top: 48px;
+
+}
+
+.main-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.main-section-cont{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 50%;
+  
+}
+
+.main-section-title{
+  /* width: 50%; */
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+.main-section-p,li{
+  /* width: 50%; */
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+.main-section-button{
+  width: 150px;
+  height: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 15pt;
+  background-color: rgb(246, 187, 93);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px;
+  transition: 0.4ms;
+}
+
+.main-section-button:hover{
+  background-color: rgb(244, 157, 17);
+  box-shadow: 5px 5px 5px;
+}
+
+/* .main-section-button:{
+  background-color: rgb(244, 157, 17);
+  box-shadow: 5px 5px 5px;
+} */
+
+.main-section-img{
+  height: 350px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  filter: grayscale(0%);
+}
+
+/* .main-section-img:hover{
+  box-shadow: 0 0 2px 1px rgba(93, 53, 1, 0.5);
+  filter: grayscale(0%);
+} */
+
+#footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 2px;;
+}
+
+.footer-title{
+  font-family: 'Oswald', sans-serif;
+  padding-top: 28px;
+}
+
+.footer-itens{
+  margin-top: 20px;
+}
+
+.footer-item{
+
+}
+
+.footer-item-img{
+  height: 50px;
+}
