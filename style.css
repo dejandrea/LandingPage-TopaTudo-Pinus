@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Kdam+Thmor+Pro&family=Oswald:wght@200&family=Shippori+Mincho+B1&display=swap');
 
 *{
   border: none;
@@ -22,17 +22,17 @@ body{
 #header-title{
   display: flex;
   align-items: center;
-  margin-left: 150px;
+  gap: 25px;
+  /* margin-left: 150px; */
 }
 
 #header-logo{
-  display: block;
-  position:absolute;
-  left: 50px;
+  width: 150px;
+  border-radius: 80px;
 }
 
 #header-title-h1{
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Shippori Mincho B1', serif;
   font-size: 40pt;
 }
 
@@ -52,13 +52,22 @@ body{
 #main{
   margin: 50px;
   margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
 
 }
 
 .main-section{
   display: flex;
+  justify-content: center;
+  align-content: center;
   align-items: center;
-  justify-content: space-around;
+  padding: 48px;
+  width: 70%;
+  gap: 100px;
+  
   
 }
 
@@ -66,7 +75,9 @@ body{
   display: flex;
   flex-direction: column;
   gap: 40px;
-  width: 50%;
+  /* width: 50%; */
+  /* border-style: solid; */
+  /* width: 350px; */
   
 }
 
@@ -105,17 +116,12 @@ body{
 } */
 
 .main-section-img{
-  height: 350px;
+  height: 200px;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   filter: grayscale(0%);
 }
-
-/* .main-section-img:hover{
-  box-shadow: 0 0 2px 1px rgba(93, 53, 1, 0.5);
-  filter: grayscale(0%);
-} */
 
 #footer{
   display: flex;
