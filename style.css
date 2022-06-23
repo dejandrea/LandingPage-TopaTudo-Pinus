@@ -16,7 +16,7 @@ body{
   justify-content: space-around;
   margin-top: 20px;
   padding-bottom: 30px;
-  border-bottom: solid 2px;
+  border-bottom: solid 2px #3D2A04;
 }
 
 #header-title{
@@ -34,6 +34,7 @@ body{
 #header-title-h1{
   font-family: 'Shippori Mincho B1', serif;
   font-size: 40pt;
+  color: #3D2A04;
 }
 
 #header-menu{
@@ -44,7 +45,7 @@ body{
 
 .header-menu-item{
   font-family: 'Oswald', sans-serif;
-  color: black;
+  color: #3D2A04;
   font-size: 18pt;
 
 }
@@ -84,12 +85,14 @@ body{
 .main-section-title{
   /* width: 50%; */
   font-family: 'Oswald', sans-serif;
+  color: #3D2A04;
   
 }
 
 .main-section-p,li{
   /* width: 50%; */
   font-family: 'Oswald', sans-serif;
+  color: #3D2A04;
   
 }
 
@@ -102,7 +105,8 @@ body{
   background-color: rgb(246, 187, 93);
   border-radius: 20px;
   box-shadow: 5px 5px 10px;
-  transition: 0.4ms;
+  color: #3D2A04;
+  transition-duration: 0.4ms;
 }
 
 .main-section-button:hover{
@@ -128,12 +132,13 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top: solid 2px;;
+  border-top: solid 2px #3D2A04;
 }
 
 .footer-title{
   font-family: 'Oswald', sans-serif;
   padding-top: 28px;
+  color: #3D2A04;
 }
 
 .footer-itens{
